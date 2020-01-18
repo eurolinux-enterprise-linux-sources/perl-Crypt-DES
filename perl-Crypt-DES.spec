@@ -1,6 +1,6 @@
 Name:           perl-Crypt-DES
 Version:        2.05
-Release:        18.1%{?dist}
+Release:        20%{?dist}
 Summary:        Perl DES encryption module
 License:        BSD
 Group:          Development/Libraries
@@ -55,6 +55,12 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man3/*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 2.05-20
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.05-19
+- Mass rebuild 2013-12-27
+
 * Wed Aug 15 2012 Daniel Mach <dmach@redhat.com> - 2.05-18.1
 - Rebuild for perl 5.16
 
